@@ -1,0 +1,4 @@
+numpy>=1.26
+sounddevice>=0.4.9
+# Optional backend for audio input when sounddevice is not available
+pyaudio>=0.2.13; platform_system == "Windows"
